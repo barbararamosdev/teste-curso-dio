@@ -7,9 +7,9 @@ public class PrimeiroPrograma {
 	public static void main(String[] args) {
 		
 		Gato gato = new Gato();
-		Livros livros = new Livros();
+		Books books = new Books();
 		System.out.println(gato);
-		System.out.println(livros);
+		System.out.println(books);
 		
 		
 	
@@ -17,7 +17,7 @@ public class PrimeiroPrograma {
 
 }
 
-class Livros {
+class Books {
 	private String nome;
 	private String npag;
 }
